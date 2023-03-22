@@ -47,7 +47,7 @@ jobs:
     needs: build-container
     uses: ./.github/workflows/silabs-firmware-build.yaml
     with:
-      firmware_name: rcp-uart-802154-${{ matrix.target }}
+      firmware_name: rcp-uart-802154-nick
       project_file: "/gecko_sdk/protocol/openthread/sample-apps/ot-ncp/rcp-uart-802154.slcp"
       project_name: "rcp-uart-802154"
       device: EFR32MG21A020F768IM32
