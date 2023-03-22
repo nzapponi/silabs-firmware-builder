@@ -47,11 +47,11 @@ jobs:
     needs: build-container
     uses: ./.github/workflows/silabs-firmware-build.yaml
     with:
-      firmware_name: rcp-uart-802154-nick
-      project_file: "/gecko_sdk/protocol/openthread/sample-apps/ot-ncp/rcp-uart-802154.slcp"
-      project_name: "rcp-uart-802154"
+      firmware_name: rcp-uart-802154-blehci-nick
+      project_file: "/gecko_sdk/protocol/openthread/sample-apps/ot-ncp/rcp-uart-802154-blehci.slcp"
+      project_name: "rcp-uart-802154-blehci"
       device: EFR32MG21A020F768IM32
       components: cpc_security_secondary_none
       patchpath: "RCPMultiPAN/SkyConnect"
       sdk_version: 4.2.2
-      metadata_fw_type: "rcp-uart-802154"
+      metadata_fw_type: "rcp-uart-802154-blehci"
