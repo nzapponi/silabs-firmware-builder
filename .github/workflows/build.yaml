@@ -54,4 +54,4 @@ jobs:
       components: cpc_security_secondary_none
       patchpath: "RCPMultiPAN/SkyConnect"
       sdk_version: 4.2.2
-      metadata_fw_type: "rcp-uart-802154-blehci"
+      metadata_fw_type: "rcp-uart-802154"
